@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Togthr template</title>
+  <meta property="og:title" content="Togthr template" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta property="twitter:card" content="summary_large_image" />
+
+  <style data-tag="reset-style-sheet">
+    html {
+      line-height: 1.15;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      border-width: 0;
+      border-style: solid;
+    }
+
+    p,
+    li,
+    ul,
+    pre,
+    div,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    figure,
+    blockquote,
+    figcaption {
+      margin: 0;
+      padding: 0;
+    }
+
+    button {
+      background-color: transparent;
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      font-family: inherit;
+      font-size: 100%;
+      line-height: 1.15;
+      margin: 0;
+    }
+
+    button,
+    select {
+      text-transform: none;
+    }
+
+    button,
+    [type="button"],
+    [type="reset"],
+    [type="submit"] {
+      -webkit-appearance: button;
+    }
+
+    button::-moz-focus-inner,
+    [type="button"]::-moz-focus-inner,
+    [type="reset"]::-moz-focus-inner,
+    [type="submit"]::-moz-focus-inner {
+      border-style: none;
+      padding: 0;
+    }
+
+    button:-moz-focus,
+    [type="button"]:-moz-focus,
+    [type="reset"]:-moz-focus,
+    [type="submit"]:-moz-focus {
+      outline: 1px dotted ButtonText;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+
+    input {
+      padding: 2px 4px;
+    }
+
+    img {
+      display: block;
+    }
+
+    html {
+      scroll-behavior: smooth
+    }
+  </style>
+  <style data-tag="default-style-sheet">
+    html {
+      font-family: Inter;
+      font-size: 16px;
+    }
+
+    body {
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      text-transform: none;
+      letter-spacing: normal;
+      line-height: 1.15;
+      color: var(--dl-color-gray-black);
+      background-color: var(--dl-color-gray-white);
+
+    }
+  </style>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+    data-tag="font" />
+  <!--This is the head section-->
+  <!-- <style> ... </style> -->
+  <link rel="stylesheet" href="https://unpkg.com/blaze-slider@latest/dist/blaze.css" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div>
+    <script type="text/javascript" src="https://unpkg.com/dangerous-html/dist/default/lib.umd.js"></script>
+    <link href="./index.css" rel="stylesheet" />
+
+    <div class="home-container">
+      <section class="home-hero">
+        <video src="https://public-files.gumroad.com/22fz9fdm2zrtvlclyaa6qvk4dzxf" loop="" muted=""
+          poster="public/hero-bg.png" preload="auto" autoplay="" playsinline="" class="home-video"></video>
+        <header data-thq="thq-navbar" class="home-navbar">
+          <img alt="image" src="public/logo.svg" class="home-branding" />
+          <div data-thq="thq-burger-menu" class="home-burger-menu">
+            <div class="home-hamburger">
+              <img alt="image" src="public/hamburger.svg" class="home-icon" />
+            </div>
+          </div>
+          <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+            <div data-thq="thq-mobile-menu-nav" data-role="Nav" class="home-nav">
+              <div class="home-container1">
+                <img alt="image" src="public/logo.svg" class="home-image" />
+                <div data-thq="thq-close-menu" class="home-menu-close">
+                  <svg viewBox="0 0 1024 1024" class="home-icon01">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+              <nav data-thq="thq-mobile-menu-nav-links" data-role="Nav" class="home-nav1">
+                <span class="home-text">About</span>
+                <span class="home-text01">Features</span>
+                <span class="home-text02">Pricing</span>
+                <span class="home-text03">Team</span>
+                <span class="home-text04">Blog</span>
+              </nav>
+              <!-- <div class="home-container2">
+                <button class="home-login button">Login</button>
+                <button class="button">Register</button>
+              </div>
+            </div> -->
+              <div class="home-icon-group" style="position: absolute;
+            bottom: 38px;">
+                <svg viewBox="0 0 950.8571428571428 1024" class="home-icon03">
+                  <path
+                    d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z">
+                  </path>
+                </svg><svg viewBox="0 0 877.7142857142857 1024" class="home-icon05">
+                  <path
+                    d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z">
+                  </path>
+                </svg><svg viewBox="0 0 602.2582857142856 1024" class="home-icon07">
+                  <path
+                    d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z">
+                  </path>
+                </svg>
+              </div>
+            </div>
+        </header>
+        <div class="home-hero-content">
+          <div class="home-header-container">
+            <div class="home-header">
+              <h1 class="home-heading">
+                <span class="home-text05">Crafting&nbsp;</span>
+                <span class="home-text09">Elegance,</span>
+                <br class="home-text07" />
+                <span class="home-text08">Stitching&nbsp;</span>
+                <span class="home-text09">Dreams</span>
+                <br class="home-text11" />
+              </h1>
+            </div>
+            <p class="home-caption">
+              <span>Elevate Your Style with</span>
+              <br />
+              <span>Exquisite Handcrafted Clothing</span>
+            </p>
+          </div>
+          <button class="button home-button">
+            <span>
+              <span>Get started today</span>
+              <br />
+            </span>
+          </button>
+        </div>
+      </section>
+      <section class="home-note">
+        <h2 class="home-caption01">
+          Elevate your everyday style with PlutoX's handcrafted t-shirts,
+          shirts, and denims that redefine modern fashion with distinctive
+          designs.
+        </h2>
+      </section>
+      <section class="home-statistics">
+        <div class="home-content">
+          <div class="home-stat">
+            <h3 class="home-header01">100%</h3>
+            <span class="home-caption02">Satisfactions</span>
+          </div>
+          <div class="home-stat1">
+            <h3 class="home-header02">100+</h3>
+            <span class="home-caption03">Designs</span>
+          </div>
+          <div class="home-stat2">
+            <h3 class="home-header03">100%</h3>
+            <span class="home-caption04">Incredible services</span>
+          </div>
+        </div>
+      </section>
+      <section class="home-slider">
+        <div class="home-header04">
+          <h2 class="home-heading01">
+            <span>Unveiling PlutoX's</span>
+            <br />
+            <span class="home-text20">
+              High-Quality, Affordable, and Stylish
+            </span>
+            <span>T-Shirts and Shirts</span>
+          </h2>
+        </div>
+        <div class="home-selector">
+          <p class="home-caption05">
+            At PlutoX, we take pride in redefining the fashion landscape by
+            offering a range of meticulously crafted apparel that effortlessly
+            combines modern design with exceptional quality. Our commitment to
+            excellence is the cornerstone of our brand, reflected in every
+            stitch and detail of our t-shirts and shirts.
+          </p>
+          <div class="home-slide-titles">
+            <div class="slide-title slide-title-active">
+              <span>Tshirt</span>
+            </div>
+            <div class="slide-title"><span>Shirt</span></div>
+          </div>
+        </div>
+      </section>
+      <section class="home-slides">
+        <div class="home-slider1 slider blaze-slider">
+          <div class="home-slider-container blaze-container">
+            <div class="home-slider-track-container blaze-track-container">
+              <div class="home-slider-track blaze-track">
+                <div data-role="current-banner" class="banner">
+                  <img alt="image"
+                    src="https://images.unsplash.com/photo-1576871337622-98d48d1cf531?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+                    class="home-image2" />
+                  <div class="home-content02">
+                    <div class="home-header06">
+                      <h3 class="home-heading03">Unparalleled Quality</h3>
+                      <p class="home-caption08">
+                        We understand the importance of clothing that not only
+                        looks good but also stands the test of time. That's
+                        why each t-shirt and shirt we manufacture is crafted
+                        using the finest materials, chosen for their
+                        durability and comfort. Our products are a testament
+                        to the impeccable quality standards we uphold.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div data-role="current-banner" class="banner">
+                  <img alt="image"
+                    src="https://plus.unsplash.com/premium_photo-1673356301514-2cad91907f74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+                    class="home-image2" />
+                  <div class="home-content02">
+                    <div class="home-header06">
+                      <h3 class="home-heading03">Affordable Luxury</h3>
+                      <p class="home-caption08">
+                        We believe that fashion shouldn't come at a steep price. Our dedication to making premium
+                        clothing accessible drives us to offer our customers exceptional value without compromising on
+                        the luxurious feel and aesthetics that set us apart.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div data-role="current-banner" class="banner">
+                  <img alt="image"
+                    src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+                    class="home-image2" />
+                  <div class="home-content02">
+                    <div class="home-header06">
+                      <h3 class="home-heading03">Modern Designs</h3>
+                      <p class="home-caption08">
+                        Fashion is an expression of individuality, and our t-shirts and shirts are designed with that
+                        philosophy in mind. Our team of creative designers works tirelessly to bring you contemporary
+                        styles that resonate with the current trends, allowing you to make a statement with your attire.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div data-role="current-banner" class="banner">
+                  <img alt="image"
+                    src="https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
+                    class="home-image2" />
+                  <div class="home-content02">
+                    <div class="home-header06">
+                      <h3 class="home-heading03">Versatility Redefined</h3>
+                      <p class="home-caption08">
+                        Whether it's a casual outing, a professional setting, or a special occasion, PlutoX's t-shirts
+                        and shirts effortlessly transition from one scenario to another. Versatility is at the heart of
+                        our designs, ensuring you always look your best, no matter the context.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="home-controls">
+              <button data-role="previous-banner-button" class="home-previous blaze-prev button">
+                <svg viewBox="0 0 1024 1024" class="home-icon15">
+                  <path
+                    d="M542.165 780.501l-225.835-225.835h494.336c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-494.336l225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-298.667 298.667c-4.096 4.096-7.168 8.789-9.259 13.824-2.176 5.205-3.243 10.795-3.243 16.341 0 10.923 4.181 21.845 12.501 30.165l298.667 298.667c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z">
+                  </path>
+                </svg>
+              </button>
+              <button data-role="next-banner-button" class="home-next blaze-next button">
+                <svg viewBox="0 0 1024 1024" class="home-icon17">
+                  <path
+                    d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <dangerous-html html="<script>
+const el = document.querySelector('.blaze-slider')
+
+new BlazeSlider(el, {
+  all: {
+    slidesToShow: 3,
+    slideGap: '80px',
+    loop: true,
+    enableAutoplay: true,
+  },
+})
+</script>"></dangerous-html>
+        </div>
+      </section>
+      <section class="home-get-started">
+        <div class="home-header-container1">
+          <div class="home-header09">
+            <h2 class="home-heading06">
+              <span>Experience</span>
+              <span class="home-text25">Excellence</span>
+              <br />
+              <span>in Every</span>
+              <span class="home-text28">Stitch</span>
+            </h2>
+            <p class="home-caption13">
+              Discover PlutoX's meticulously crafted collection and elevate
+              your wardrobe with our modern fashion essentials. Shop now to
+              embrace the perfect blend of style and quality.
+            </p>
+          </div>
+          <div class="home-button1">
+            <button class="button"><span>Get started today</span></button>
+          </div>
+        </div>
+        <img alt="image"
+          src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fGNsb3RoaW5nfGVufDB8fHx8MTY5MzM5NzQ1Mnww&amp;ixlib=rb-4.0.3&amp;w=700"
+          class="home-image5" />
+      </section>
+      <section class="home-objectives">
+        <div class="home-content05">
+          <span class="home-text30">Objectives</span>
+          <div class="home-objectives-list">
+            <div class="objective">
+              <h3 class="home-text31">Showcase Diverse Collections</h3>
+              <p class="home-text32">
+                Present a wide range of clothing collections, from casual to
+                formal wear, highlighting the company's expertise in crafting
+                garments with attention to detail. Through vivid imagery and
+                comprehensive product descriptions, the website aims to
+                captivate visitors and encourage them to explore the company's
+                offerings.
+              </p>
+            </div>
+            <div class="objective home-objective1">
+              <h3 class="home-text33">Highlight Craftsmanship and Quality</h3>
+              <p class="home-text34">
+                Emphasize the company's commitment to exceptional
+                craftsmanship and high-quality materials in each garment. The
+                website will include sections that detail the manufacturing
+                process, from fabric selection to stitching techniques,
+                demonstrating the company's dedication to creating durable and
+                stylish clothing.
+              </p>
+            </div>
+            <div class="objective home-objective2">
+              <h3 class="home-text35">Enhance Customer Engagement</h3>
+              <p class="home-text36">
+                Create an interactive and user-friendly platform that engages
+                visitors through features such as virtual fitting rooms, size
+                guides, and personalized styling recommendations. The website
+                will encourage customer interaction, enabling them to provide
+                feedback, reviews, and share their own styling experiences,
+                fostering a sense of community around the brand.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="home-growth">
+        <div class="home-content06">
+          <div class="home-header10">
+            <div class="home-header11">
+              <h2 class="home-heading07">
+                <span>Elevating Your Wardrobe with</span>
+                <span class="home-text38">Our Exceptional Garments</span>
+                <br />
+              </h2>
+            </div>
+            <p class="home-caption14">
+              Elevate your wardrobe with PlutoX's exceptional garments that
+              redefine quality apparel. Our unwavering commitment to
+              excellence is reflected in every piece, from the unmatched
+              craftsmanship seen in impeccable stitching and intricate
+              designs, to the premium materials ensuring longevity and
+              comfort. In a world of fast fashion, we stand for sustainability
+              and enduring appeal, offering companions on your journey that
+              maintain their charm through countless wears and washes. Choose
+              PlutoX for a partnership that brings sophistication, comfort,
+              and statement-making style to your wardrobe. Experience quality
+              as a way of life – elevate with PlutoX today.
+            </p>
+          </div>
+          <div class="home-testimonial">
+            <div class="home-content07">
+              <span class="home-text40">Testimonial</span>
+              <p class="home-text41">
+                "PlutoX's garments have transformed my wardrobe into a realm
+                of unmatched style and quality."
+              </p>
+            </div>
+            <div class="home-information">
+              <div class="home-author">
+                <img alt="image"
+                  src="https://images.unsplash.com/photo-1661140910095-51cd9163b752?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDMxfHxwcm9maWxlJTIwaW5kaWFufGVufDB8fHx8MTY5MzM5ODc1NXww&amp;ixlib=rb-4.0.3&amp;w=200"
+                  class="home-icon19" />
+                <span class="home-name">Akansha</span>
+              </div>
+              <img alt="image" src="public/logoipsum.svg" class="home-from" />
+            </div>
+          </div>
+        </div>
+        <div class="home-images">
+          <div class="home-square"></div>
+          <img alt="image"
+            src="https://images.unsplash.com/photo-1613461920867-9ea115fee900?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDM4fHxjbG90aGluZ3xlbnwwfHx8fDE2OTMzOTgzOTN8MA&amp;ixlib=rb-4.0.3&amp;w=1400"
+            class="home-image6" />
+        </div>
+      </section>
+      <section class="home-create">
+        <div class="home-content08">
+          <div class="home-header12">
+            <h2 class="home-heading08">
+              <span>Unveiling Your</span>
+              <span class="home-text43">Signature Style</span>
+              <span>to the World</span>
+              <br />
+            </h2>
+          </div>
+          <button class="home-button3 button">
+            <span>
+              <span>Get started today</span>
+              <br />
+            </span>
+          </button>
+        </div>
+      </section>
+      <section class="home-customer">
+        <div class="home-header13">
+          <h2 class="home-heading09">
+            <span>The Cornerstone of Our Brand's</span>
+            <span class="home-text50">Trustworthiness</span>
+            <br />
+          </h2>
+        </div>
+        <div class="home-quotes">
+          <div class="home-quote">
+            <p class="home-quote1">
+              PlutoX has redefined my perception of quality and affordability.
+              Their t-shirts and shirts not only exude style but also stand up
+              to the test of time. A brand I trust for both fashion and value.
+            </p>
+            <div class="home-author1">
+              <span class="home-name1">Joanna Smith</span>
+              <span class="home-location">Briville</span>
+            </div>
+          </div>
+          <div class="home-quote2">
+            <p class="home-quote3">
+              From the moment I wore a PlutoX shirt, I knew I found a brand
+              that understands my need for modern designs that don't
+              compromise on comfort. Trust me, once you wear PlutoX, you won't
+              settle for anything less.
+            </p>
+            <div class="home-author2">
+              <span class="home-name2">Joanna Smith</span>
+              <span class="home-location1">Briville</span>
+            </div>
+          </div>
+          <div class="home-quote4">
+            <p class="home-quote5">
+              I was skeptical about finding high-quality clothing at a
+              reasonable price until I discovered PlutoX. Their t-shirts are a
+              perfect fit for my style and my budget. Exceptional designs,
+              excellent quality, unbeatable value
+            </p>
+            <div class="home-author3">
+              <span class="home-name3">Joanna Smith</span>
+              <span class="home-location2">Briville</span>
+            </div>
+          </div>
+          <div class="home-quote6">
+            <p class="home-quote7">
+              PlutoX isn't just a clothing brand; it's a reflection of my
+              lifestyle. The shirts are a fusion of elegance and contemporary
+              fashion. As someone who values both quality and savings, PlutoX
+              has my trust
+            </p>
+            <div class="home-author4">
+              <span class="home-name4">Joanna Smith</span>
+              <span class="home-location3">Briville</span>
+            </div>
+          </div>
+        </div>
+        <div class="home-controls1">
+          <button class="home-previous1 button">
+            <svg viewBox="0 0 1024 1024" class="home-icon20">
+              <path
+                d="M542.165 780.501l-225.835-225.835h494.336c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-494.336l225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-298.667 298.667c-4.096 4.096-7.168 8.789-9.259 13.824-2.176 5.205-3.243 10.795-3.243 16.341 0 10.923 4.181 21.845 12.501 30.165l298.667 298.667c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z">
+              </path>
+            </svg>
+          </button>
+          <button class="home-next1 button">
+            <svg viewBox="0 0 1024 1024" class="home-icon22">
+              <path
+                d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z">
+              </path>
+            </svg>
+          </button>
+        </div>
+      </section>
+      <section class="home-faq">
+        <div class="home-header14">
+          <h2 class="home-heading10">
+            <span>Frequently asked&nbsp;</span>
+            <span class="home-text53">questions</span>
+            <span></span>
+          </h2>
+        </div>
+        <div class="home-content09">
+          <div class="home-column">
+            <div class="home-element">
+              <h3 class="home-header15">What does PlutoX specialize in?</h3>
+              <p class="home-content10">
+                PlutoX specializes in crafting high-quality clothing,
+                including t-shirts, shirts, and denims, meticulously designed
+                for modern fashion enthusiasts seeking distinctive style and
+                comfort.
+              </p>
+            </div>
+            <div class="home-element1">
+              <h3 class="home-header16">
+                How does PlutoX ensure product quality?
+              </h3>
+              <p class="home-content11">
+                Our skilled artisans employ meticulous craftsmanship, and we
+                source only the finest materials to create products that
+                exemplify durability and comfort. Each piece undergoes
+                rigorous quality checks to meet our high standards.
+              </p>
+            </div>
+            <div class="home-element2">
+              <h3 class="home-header17">
+                How do I determine my size when purchasing online?
+              </h3>
+              <p class="home-content12">
+                Our comprehensive size guide provides accurate measurements to
+                help you select the perfect fit. Additionally, our customer
+                service team is ready to assist with any sizing queries.
+              </p>
+            </div>
+          </div>
+          <div class="home-column1">
+            <div class="home-element3">
+              <h3 class="home-header18">
+                Are PlutoX products sustainably produced?
+              </h3>
+              <p class="home-content13">
+                Yes, sustainability is paramount to us. We prioritize
+                eco-friendly practices in our manufacturing processes,
+                including responsible material sourcing and ethical production
+                methods.
+              </p>
+            </div>
+            <div class="home-element4">
+              <h3 class="home-header19">
+                Can I customize clothing for my brand or business?
+              </h3>
+              <p class="home-content14">
+                Absolutely! PlutoX offers custom manufacturing solutions,
+                allowing you to tailor designs, fabrics, and styles to suit
+                your brand's unique identity and requirements.
+              </p>
+            </div>
+            <div class="home-element5">
+              <h3 class="home-header20">
+                Does PlutoX offer international shipping?
+              </h3>
+              <p class="home-content15">
+                Yes, we offer worldwide shipping to bring our exceptional
+                products to customers across the globe. Shipping times and
+                costs may vary depending on the destination.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="home-footer">
+        <div class="home-content16">
+          <div class="home-main">
+            <div class="home-branding1">
+              <img alt="image" src="public/logo.svg" class="home-image7" />
+              <span class="home-text55">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </span>
+            </div>
+            <div class="home-links">
+              <div class="home-column2">
+                <span class="home-header21">Company</span>
+                <div class="home-list">
+                  <a href="404.html" class="home-navlink">About</a>
+                  <a href="404.html" class="home-navlink1">Services</a>
+                  <a href="404.html" class="home-navlink2">How</a>
+                  <a href="404.html" class="home-navlink3">
+                    <span class="home-text56">Why</span>
+                    <br />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-bottom">
+            <span class="home-text58">
+              © 2023 AkashWorks - All rights reserved
+            </span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <dangerous-html html="<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // get the element with the 'scroll-top' data-role
+  const scrollTopBtn = document.querySelector('[data-role='scroll-top']');
+
+  // when the element is clicked
+  scrollTopBtn.addEventListener('click', function() {
+    // smoothly scroll to the top of the page
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+});
+</script>
+"></dangerous-html>
+      </div>
+    </div>
+  </div>
+  <script data-section-id="navbar" src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  <script src="https://unpkg.com/blaze-slider@latest/dist/blaze-slider.min.js"></script>
+</body>
+
+</html>
